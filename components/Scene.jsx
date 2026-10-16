@@ -44,7 +44,7 @@ export function Scene({ scrollProgress }) {
       <ambientLight intensity={0.4} />
       <pointLight position={[4, 3, 5]} intensity={40} color="#7c5cff" />
       <pointLight position={[-4, -2, -3]} intensity={25} color="#ff6b4a" />
-      <DistortedCore scrollProgress={scrollProgress} />
+      {/* <DistortedCore scrollProgress={scrollProgress} /> */}
       <Sparkles count={80} scale={6} size={2} speed={0.3} color="#c9b8ff" />
       <Environment preset="city" />
     </Canvas>
