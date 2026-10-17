@@ -23,3 +23,10 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# AI agent skills and tool output (local only)
+.agents/
+.claude/skills/
+.claude/settings.local.json
+.taste-skill/
+skills-lock.json

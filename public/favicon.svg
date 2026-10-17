@@ -1,16 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#0d0b16"/>
-      <stop offset="1" stop-color="#07060b"/>
-    </linearGradient>
-    <linearGradient id="fg" x1="8" y1="10" x2="56" y2="54" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#ffffff"/>
-      <stop offset="1" stop-color="#7c5cff"/>
-    </linearGradient>
-  </defs>
-  <rect width="64" height="64" rx="16" fill="url(#bg)"/>
-  <text x="32" y="34" text-anchor="middle" dominant-baseline="central"
-        font-family="Arial, Helvetica, sans-serif" font-weight="700"
-        font-size="30" letter-spacing="-1" fill="url(#fg)">RY</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#111010"/><g fill="none" stroke-width="5.5" stroke-linejoin="miter"><path d="M13 47V17h9.5a8.5 8.5 0 0 1 0 17H13M23 34l8 13" stroke="#edeae4"/><path d="M36 17l9 16M54 17l-9 16M45 33v14" stroke="#7fa8ff"/></g></svg>
