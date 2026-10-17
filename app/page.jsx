@@ -13,6 +13,7 @@ import { Experience } from "../components/Experience";
 import { Skills } from "../components/Skills";
 import { Contact } from "../components/Contact";
 import { Footer } from "../components/Footer";
+import { Analytics } from "@vercel/analytics/next";
 
 const NAV_ITEMS = [
   { label: "Work", href: "#work" },
@@ -40,6 +41,7 @@ export default function Page() {
         <Skills />
         <Contact />
         <Footer />
+        <Analytics />
       </main>
     </>
   );
