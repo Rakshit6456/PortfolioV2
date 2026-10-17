@@ -2,6 +2,7 @@
 
 import { PROFILE } from "../lib/data";
 import { AsciiName } from "./AsciiName";
+import { LikeButton } from "./LikeButton";
 
 export function Footer() {
   return (
@@ -17,6 +18,7 @@ export function Footer() {
           >
             Back to top ↑
           </a>
+          <LikeButton />
         </div>
         <div className="footer__fit">
           <AsciiName label={PROFILE.name} />
