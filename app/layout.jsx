@@ -10,9 +10,20 @@ const sans = Archivo({
 const mono = Geist_Mono({ subsets: ["latin"], variable: "--font-mono" });
 
 export const metadata = {
-  title: "Rakshit Yadav — Portfolio",
+  metadataBase: new URL("https://rakshityadav.is-a.dev"),
+  alternates: { canonical: "/" },
+  title: "Rakshit Yadav — Full-Stack & AI Developer Portfolio",
   description:
     "Full-stack and AI developer building modern web applications backed by intelligent systems.",
+  keywords: ["Rakshit Yadav", "full-stack developer", "AI developer", "Next.js", "React", "portfolio", "Gurugram"],
+  authors: [{ name: "Rakshit Yadav" }],
+  openGraph: {
+    title: "Rakshit Yadav — Full-Stack & AI Developer",
+    description:
+      "Full-stack and AI developer building modern web applications backed by intelligent systems.",
+    type: "website",
+    url: "/",
+  },
   icons: { icon: "/favicon.svg" },
 };
 

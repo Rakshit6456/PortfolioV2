@@ -147,7 +147,7 @@ export function Skills() {
                 <span className={`tool__icon${t.plate ? ` tool__icon--${t.plate}` : ""}`}>
                   <img
                     src={t.src || `https://skillicons.dev/icons?i=${t.icon}`}
-                    alt=""
+                    alt={`${t.name} logo`}
                     width={64}
                     height={64}
                     loading="lazy"

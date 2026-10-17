@@ -104,7 +104,7 @@ export function Hero() {
           <LocalTime />
         </div>
 
-        <h1 className="hero__title" ref={titleRef} aria-label={PROFILE.name}>
+        <h1 className="hero__title" ref={titleRef} aria-label={`${PROFILE.name} — ${PROFILE.role}`}>
           <span className="hero__line hero__line--first" aria-hidden="true">
             <Letters text={first} />
           </span>
