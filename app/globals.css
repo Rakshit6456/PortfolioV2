@@ -1602,3 +1602,24 @@ html.modal-open {
 .like.is-liked {
   cursor: default;
 }
+
+.notfound {
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 2rem clamp(1.25rem, 5vw, 5rem);
+}
+.notfound__title {
+  font-size: clamp(3rem, 12vw, 11rem);
+  font-weight: 800;
+  line-height: 0.9;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+}
+.notfound__text {
+  max-width: 34rem;
+  color: var(--muted);
+}

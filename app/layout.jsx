@@ -14,7 +14,7 @@ export const metadata = {
   alternates: { canonical: "/" },
   title: "Rakshit Yadav — Full-Stack & AI Developer Portfolio",
   description:
-    "Full-stack and AI developer building modern web applications backed by intelligent systems.",
+    "Explore projects, web development experience, and software engineering work by Rakshit Yadav, a Computer Science student at IILM University..",
   keywords: ["Rakshit Yadav", "full-stack developer", "AI developer", "Next.js", "React", "portfolio", "Gurugram"],
   authors: [{ name: "Rakshit Yadav" }],
   openGraph: {
