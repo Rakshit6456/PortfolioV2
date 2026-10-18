@@ -23,7 +23,6 @@ const JSON_LD = {
       jobTitle: PROFILE.role,
       description: PROFILE.bio,
       url: SITE,
-      email: `mailto:${PROFILE.email}`,
       image: `${SITE}/opengraph-image`,
       address: {
         "@type": "PostalAddress",

@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { getLenis } from "../lib/useSmoothScroll";
 import { LocalTime } from "./LocalTime";
 
-export function Header({ items, email }) {
+export function Header({ items, email, mailHref }) {
   const [hidden, setHidden] = useState(false);
   const [open, setOpen] = useState(false);
   const [theme, setTheme] = useState("dark");
@@ -71,7 +71,7 @@ export function Header({ items, email }) {
               {item.label}
             </a>
           ))}
-          <a className="header__cta" href={`mailto:${email}`}>
+          <a className="header__cta" href={mailHref}>
             Start a project
           </a>
         </nav>
@@ -104,8 +104,8 @@ export function Header({ items, email }) {
               </li>
             ))}
         </ol>
-        <a className="menu__mail" href={`mailto:${email}`}>
-          {email}
+        <a className="menu__mail" href={mailHref}>
+          {email || "\u00a0"}
         </a>
       </div>
     </>

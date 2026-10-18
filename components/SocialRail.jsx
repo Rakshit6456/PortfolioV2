@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { PROFILE } from "../lib/data";
+import { useEmail } from "../lib/useEmail";
 
 const ICONS = {
   LinkedIn: (
@@ -25,6 +26,7 @@ const Mail = (
 // Floats on the right once the hero is gone, and steps aside at the contact section,
 // which already carries the same links.
 export function SocialRail() {
+  const { href: mailHref } = useEmail();
   const [show, setShow] = useState(false);
 
   useEffect(() => {
@@ -48,7 +50,7 @@ export function SocialRail() {
 
   const links = [
     ...PROFILE.socials.map((s) => ({ label: s.label, href: s.href, icon: ICONS[s.label] })),
-    { label: "Email", href: `mailto:${PROFILE.email}`, icon: Mail, mail: true },
+    { label: "Email", href: mailHref, icon: Mail, mail: true },
   ];
 
   return (

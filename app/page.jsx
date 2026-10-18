@@ -4,8 +4,8 @@ import { useSmoothScroll } from "../lib/useSmoothScroll";
 import { Header } from "../components/Header";
 import { Cursor } from "../components/Cursor";
 import { SocialRail } from "../components/SocialRail";
-import { PROFILE } from "../lib/data";
 import { useReveal } from "../lib/useReveal";
+import { useEmail } from "../lib/useEmail";
 import { Hero } from "../components/Hero";
 import { About } from "../components/About";
 import { Projects } from "../components/Projects";
@@ -24,6 +24,7 @@ const NAV_ITEMS = [
 ];
 
 export default function Page() {
+  const { email, href } = useEmail();
   useSmoothScroll();
   useReveal();
 
@@ -31,7 +32,7 @@ export default function Page() {
     <>
       <Cursor />
       <SocialRail />
-      <Header items={NAV_ITEMS} email={PROFILE.email} />
+      <Header items={NAV_ITEMS} email={email} mailHref={href} />
       <a className="skip-link" href="#work">Skip to content</a>
       <main>
         <Hero />
