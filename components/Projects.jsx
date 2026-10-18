@@ -124,6 +124,11 @@ export function Projects() {
                 </div>
                 <p className="work__tags mono">{project.tags.join(" / ")}</p>
               </button>
+              <div className="sr-only">
+                <p>{project.description}</p>
+                <a href={project.href}>{project.title} source code on GitHub</a>
+                {project.demo && <a href={project.demo}>{project.title} live demo</a>}
+              </div>
             </article>
           ))}
         </div>

@@ -1,0 +1,28 @@
+# Rakshit Yadav
+
+> Full-stack and AI developer from Gurugram, India. Builds modern web applications backed by intelligent systems. Open to internships.
+
+Site: https://rakshityadav.is-a.dev
+Email: rakshityadav006@gmail.com
+GitHub: https://github.com/Rakshit6456
+LinkedIn: https://www.linkedin.com/in/rakshit-yadav-7290b6256/
+X: https://x.com/rakshityadav006
+Resume: https://rakshityadav.is-a.dev/Rakshit-Yadav-resume.pdf
+
+## About
+
+Rakshit thinks like an engineer and builds like a racer: cleaner systems, smarter solutions, and every millisecond worth optimizing.
+
+## Experience
+
+- Frontend Developer Intern, QNNX, Gurugram, India (Jul - Aug 2026, 2 months)
+
+## Projects
+
+- UniSecureShare: role-based university portal for IILM University with student, faculty and admin dashboards for secure file sharing, announcements, timetables and assignments. Next.js, React. Code: https://github.com/Rakshit6456/UniSecureShare
+- ApexF1: F1 hub with live standings, race results, head-to-head driver comparisons, race calendar and news. Next.js, Three.js, Tailwind, Radix UI. Code: https://github.com/Rakshit6456/apex-f1 Live: https://apexf1-hub.vercel.app
+- RaiseIt: campus complaint management platform with Gemini-powered image verification and duplicate-aware severity escalation. Next.js, Firebase, Gemini AI, Recharts. Code: https://github.com/Rakshit6456/RaiseIt
+
+## Skills
+
+C, Python, Java, JavaScript, TypeScript, React, Next.js, Tailwind CSS, Three.js, Node.js, Firebase, Supabase, Git, GitHub, Linux, Figma, Claude Code, ChatGPT, Antigravity, CapCut.
